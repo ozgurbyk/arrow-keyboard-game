@@ -1,0 +1,181 @@
+body, html{
+    background-color: rgb(42, 41, 39);
+    height: 100%;
+}
+.gorsel{
+    height: 100%;
+    background-color: #ec8807;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    height: 60px;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    animation: arrow 700ms linear infinite;
+  }
+  
+  .arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    right: -8px;
+    background-color: #fff;
+  }
+  
+  .arrow::after {
+    top: -12px;
+    transform: rotate(45deg);
+  }
+  
+  .arrow::before {
+    top: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+  }
+  .icon2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    height: 60px;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    transform: rotate(90deg);
+    visibility: hidden;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    animation: arrow 700ms linear infinite;
+  }
+  
+  .arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    right: -8px;
+    background-color: #fff;
+  }
+  
+  .arrow::after {
+    top: -12px;
+    transform: rotate(45deg);
+  }
+  
+  .arrow::before {
+    top: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+  }
+  .icon3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    height: 60px;
+    -ms-transform: rotate(270deg); /* IE 9 */
+    transform: rotate(270deg);
+    visibility: hidden;
+
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    animation: arrow 700ms linear infinite;
+  }
+  
+  .arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    right: -8px;
+    background-color: #fff;
+  }
+  
+  .arrow::after {
+    top: -12px;
+    transform: rotate(45deg);
+  }
+  
+  .arrow::before {
+    top: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+  }
+  .icon4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    height: 60px;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    transform: rotate(180deg);
+    visibility: hidden;
+
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    animation: arrow 700ms linear infinite;
+  }
+  
+  .arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    right: -8px;
+    background-color: #fff;
+  }
+  
+  .arrow::after {
+    top: -12px;
+    transform: rotate(45deg);
+  }
+  
+  .arrow::before {
+    top: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+  }
+  .deneme{
+    margin-left: 40%;
+  }
+  .deneme2{
+    margin-left: 39%;
+    color: white;
+    font-size: 70px;
+  }
